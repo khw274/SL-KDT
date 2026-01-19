@@ -11,3 +11,10 @@
 *.jpeg
 *.png
 *.exe
+*.db
+*.db-wal
+*.db-shm
+*.ipch
+*.suo
+*.vsidx
+*.opendb
