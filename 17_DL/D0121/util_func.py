@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 ## ========================================================
 ## 함수이름 : train_one_epoch
+## 함수기능 : 한 에포크 동안 모델을 훈련하고 손실과 정확도를 반환
 ## 반환결과 : 손실, 정확도
 ## ========================================================
 def train_one_epoch(model, loader, loss_fn, optim, device):
